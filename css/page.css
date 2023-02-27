@@ -1,0 +1,1060 @@
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Thin Italic"), local("LabGrotesque-ThinItalic"), url("/file/font/LabGrotesque-ThinItalic.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-ThinItalic.woff2") format("woff2"), url("/file/font/LabGrotesque-ThinItalic.woff") format("woff"), url("/file/font/LabGrotesque-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Medium Italic"), local("LabGrotesque-MediumItalic"), url("/file/font/LabGrotesque-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-MediumItalic.woff2") format("woff2"), url("/file/font/LabGrotesque-MediumItalic.woff") format("woff"), url("/file/font/LabGrotesque-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Regular"), local("LabGrotesque-Regular"), url("/file/font/LabGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-Regular.woff2") format("woff2"), url("/file/font/LabGrotesque-Regular.woff") format("woff"), url("/file/font/LabGrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Light Italic"), local("LabGrotesque-LightItalic"), url("/file/font/LabGrotesque-LightItalic.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-LightItalic.woff2") format("woff2"), url("/file/font/LabGrotesque-LightItalic.woff") format("woff"), url("/file/font/LabGrotesque-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Medium"), local("LabGrotesque-Medium"), url("/file/font/LabGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-Medium.woff2") format("woff2"), url("/file/font/LabGrotesque-Medium.woff") format("woff"), url("/file/font/LabGrotesque-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Bold"), local("LabGrotesque-Bold"), url("/file/font/LabGrotesque-Bold.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-Bold.woff2") format("woff2"), url("/file/font/LabGrotesque-Bold.woff") format("woff"), url("/file/font/LabGrotesque-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Thin"), local("LabGrotesque-Thin"), url("/file/font/LabGrotesque-Thin.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-Thin.woff2") format("woff2"), url("/file/font/LabGrotesque-Thin.woff") format("woff"), url("/file/font/LabGrotesque-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Italic"), local("LabGrotesque-Italic"), url("/file/font/LabGrotesque-Italic.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-Italic.woff2") format("woff2"), url("/file/font/LabGrotesque-Italic.woff") format("woff"), url("/file/font/LabGrotesque-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Black Italic"), local("LabGrotesque-BlackItalic"), url("/file/font/LabGrotesque-BlackItalic.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-BlackItalic.woff2") format("woff2"), url("/file/font/LabGrotesque-BlackItalic.woff") format("woff"), url("/file/font/LabGrotesque-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Bold Italic"), local("LabGrotesque-BoldItalic"), url("/file/font/LabGrotesque-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-BoldItalic.woff2") format("woff2"), url("/file/font/LabGrotesque-BoldItalic.woff") format("woff"), url("/file/font/LabGrotesque-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Light"), local("LabGrotesque-Light"), url("/file/font/LabGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-Light.woff2") format("woff2"), url("/file/font/LabGrotesque-Light.woff") format("woff"), url("/file/font/LabGrotesque-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: local("Lab Grotesque Black"), local("LabGrotesque-Black"), url("/file/font/LabGrotesque-Black.eot?#iefix") format("embedded-opentype"), url("/file/font/LabGrotesque-Black.woff2") format("woff2"), url("/file/font/LabGrotesque-Black.woff") format("woff"), url("/file/font/LabGrotesque-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Scania Sans CY Headline";
+  src: local("Scania Sans CY Headline Bold"), local("ScaniaSansCYHeadline-Bold"), url("/file/font/ScaniaSansCYHeadline-Bold.eot?#iefix") format("embedded-opentype"), url("/file/font/ScaniaSansCYHeadline-Bold.woff2") format("woff2"), url("/file/font/ScaniaSansCYHeadline-Bold.woff") format("woff"), url("/file/font/ScaniaSansCYHeadline-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Scania Sans CY Headline";
+  src: local("Scania Sans CY Headline Regular"), local("ScaniaSansCYHeadline-Regular"), url("/file/font/ScaniaSansCYHeadline-Regular.eot?#iefix") format("embedded-opentype"), url("/file/font/ScaniaSansCYHeadline-Regular.woff2") format("woff2"), url("/file/font/ScaniaSansCYHeadline-Regular.woff") format("woff"), url("/file/font/ScaniaSansCYHeadline-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  background: rgb(29, 29, 28);
+  color: white;
+}
+
+header {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100px;
+  padding: 0 123px;
+  background: rgb(29, 29, 28);
+  box-shadow: 0 0 15px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+header .logo {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 40px;
+}
+header .menu {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  gap: 50px;
+}
+header .menu a.phone {
+  background-color: #ffcf7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+header a.logo__main,
+header a.logo__main:active,
+header a.logo__main:hover {
+  font-family: "Scania Sans CY Headline", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 350%;
+  letter-spacing: 0.105em;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+header p.logo__add {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #6d6d6d;
+}
+header a.menu__link {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 100%;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #949494;
+  cursor: pointer;
+}
+header a.menu__link:active {
+  text-decoration: none;
+  color: #949494;
+}
+header a.menu__link:hover {
+  text-decoration: none;
+  color: #ffcf7a;
+}
+
+.content {
+  box-sizing: border-box;
+  margin-top: 100px;
+  width: 100vw;
+  padding: 82px 123px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 220px;
+}
+.content h1 {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 64px;
+  line-height: 125%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: linear-gradient(226.43deg, #ffffff 49.37%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+.content h2 {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(226.43deg, #ffffff 49.37%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+.content h2.zapravka__header {
+  text-align: left;
+}
+.content h3 {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 222%;
+  letter-spacing: 0.05em;
+  color: #ffcf7a;
+  margin: 0;
+}
+.content p {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+.content p.price__text {
+  font-size: 18px;
+  line-height: 222%;
+  color: #ffcf7a;
+}
+.content p.unic__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+  text-align: center;
+}
+.content p.content__description {
+  font-size: 20px;
+  line-height: 165%;
+  text-align: center;
+}
+.content p.information__text {
+  font-size: 16px;
+  line-height: 150%;
+}
+.content p.zapravka__description {
+  font-size: 18px;
+  line-height: 183%;
+  text-align: left;
+}
+.content p.zapravka__text {
+  font-size: 14px;
+  line-height: 171%;
+  text-align: left;
+}
+.content p.roundText__header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 142%;
+  text-align: center;
+}
+.content p.roundText__subheader {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 142%;
+  text-align: center;
+}
+.content p.roundText__text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  text-align: center;
+}
+.content p.specification__header {
+  font-size: 24px;
+  line-height: 150%;
+  text-align: left;
+}
+.content p.specification__text {
+  font-size: 14px;
+  line-height: 193%;
+  text-align: left;
+}
+.content p.infoText__header {
+  color: #757575;
+  font-size: 14px;
+  line-height: 193%;
+  text-align: left;
+}
+.content p.catalog__header {
+  font-size: 30px;
+  line-height: 147%;
+}
+.content p.btn__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  color: black;
+}
+.content p.left__header {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 458%;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.content p.left__size {
+  font-size: 24px;
+  line-height: 229%;
+}
+.content p.right__header {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 550%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.content p.slider__value {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 306%;
+  text-align: center;
+}
+.content .content__block1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content .content__block1 .content__text {
+  margin-right: -250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 780px;
+  height: 450px;
+  gap: 30px;
+}
+.content .content__block1 .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+.content .content__block1 .price .unic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 80px;
+  margin-top: 55px;
+}
+.content .content__block1 .price .unic .unic__add {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.content .content__block1 .price .unic .unic__add .unic__text {
+  display: block;
+  width: 115px;
+  height: 44px;
+}
+.content .content__block2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.content .content__block2 .content__subheader {
+  width: 680px;
+  height: 120px;
+}
+.content .content__block2 .content__description {
+  width: 550px;
+  height: 66px;
+}
+.content .content__block2 .information {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
+}
+.content .content__block2 .information .information__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content .content__block2 .information .information__box img.sup {
+  margin: 0;
+  margin-bottom: 30px;
+}
+.content .content__block2 .information .information__box .information__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 70px;
+  margin-left: 35px;
+}
+.content .content__block2 .smart__art {
+  background-image: url(/file/kamin3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1306px;
+  height: 600px;
+  box-shadow: 0 0 70px 80px rgb(29, 29, 28) inset;
+}
+.content .content__block2 .specification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+.content .content__block2 .specification .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.content .content__block2 .specification .box .specification__box {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 25px;
+}
+.content .content__block2 .specification .box .specification__box .specification__art {
+  position: relative;
+}
+.content .content__block2 .specification .box .specification__box .specification__art .line1 {
+  position: absolute;
+  top: -20;
+  left: 0;
+}
+.content .content__block2 .specification .box .specification__box .specification__art .line2 {
+  position: absolute;
+  top: -20;
+  left: 453px;
+}
+.content .content__block2 .specification .box .specification__box .specification__infoText {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  align-items: start;
+}
+.content .content__block2 .specification .box .specification__box .specification__infoText .infoText__content {
+  display: flex;
+  flex-direction: row;
+  justify-self: start;
+  align-items: start;
+  gap: 90px;
+}
+.content .content__block2 .specification .box .specification__box .specification__pict {
+  margin-top: 25px;
+  position: relative;
+}
+.content .content__block2 .specification .box .specification__box .arrow {
+  position: absolute;
+  top: 300px;
+  left: 45px;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.content .content__block2 .catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.content .content__block2 .catalog .btn {
+  display: flex;
+  width: 284px;
+  height: 60px;
+  background: radial-gradient(at right top, rgb(251, 240, 224) 0%, rgb(244, 182, 128) 60%, rgb(249, 133, 99) 100%);
+  border-radius: 1px;
+  cursor: pointer;
+}
+.content .content__block2 .catalog .btn .btn__text {
+  margin: auto;
+}
+.content .content__block2 .pict__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.content .zapravka {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content .zapravka .zapravka__text .zapravka__header {
+  width: 224px;
+  height: 55px;
+  margin-bottom: 23px;
+}
+.content .zapravka .zapravka__text .zapravka__description {
+  width: 370px;
+  height: 198px;
+}
+.content .zapravka .zapravka__art {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+.content .zapravka .zapravka__art .zapravka__on .zapravka__scheme {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.content .zapravka .zapravka__art .zapravka__on .zapravka__text {
+  width: 200px;
+  height: 48px;
+}
+.content .zapravka .zapravka__art .zapravka__pict {
+  position: relative;
+}
+.content .zapravka .zapravka__art .zapravka__pict .zapravka__pict1 {
+  top: 300px;
+  left: 100px;
+  position: absolute;
+  z-index: 2;
+}
+.content .zapravka .zapravka__art .zapravka__pict .zapravka__pict2 {
+  top: 370px;
+  left: 200px;
+  position: absolute;
+  z-index: 2;
+}
+.content .zapravka .zapravka__art .zapravka__pict .zapravka__pict3 {
+  background-image: url(/file/bak.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 675px;
+  height: 521px;
+  box-shadow: 0 0 95px 80px rgb(29, 29, 28) inset;
+}
+.content .zapravka .zapravka__art .zapravka__pict .zapravka__roundText {
+  position: absolute;
+  top: 120px;
+  left: 470px;
+  z-index: 3;
+  background-image: url(/file/EllipseFon.png);
+  width: 151px;
+  height: 151px;
+  color: black;
+}
+.content .content__price {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.content .content__price .price__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
+.content .content__price .price__box .price__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 68px;
+}
+.content .content__price .price__box .price__left .left__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.content .content__price .price__box .price__left .left__text .left__textCol {
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .content__price .price__box .price__left .left__text .left__textCol input.left__face[type=checkbox] {
+  display: none;
+}
+.content .content__price .price__box .price__left .left__text .left__textCol label.left__face-label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+.content .content__price .price__box .price__left .left__text .left__textCol input.left__face + label.left__face-label::before {
+  width: 28px;
+  height: 28px;
+  content: "";
+  margin-top: -70px;
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: rgb(29, 29, 28);
+  border: 1px solid #b8542a;
+  border-radius: 50%;
+  transition: 0.1s;
+}
+.content .content__price .price__box .price__left .left__text .left__textCol input.left__face:checked + label.left__face-label::before {
+  background-color: #b8542a;
+}
+.content .content__price .price__box .price__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.content .content__price .price__box .price__right .btn {
+  display: flex;
+  width: 284px;
+  height: 60px;
+  background: radial-gradient(at right top, rgb(251, 240, 224) 0%, rgb(244, 182, 128) 60%, rgb(249, 133, 99) 100%);
+  border-radius: 1px;
+  cursor: pointer;
+}
+.content .content__price .price__box .price__right .btn .btn__text {
+  margin: auto;
+}
+.content .content__price .price__box .price__right .right__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.content .content__price .price__box .price__right .right__box .slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.content .content__price .price__box .price__right .right__box .slider .slider__tool {
+  display: block;
+  width: 296px;
+  height: 2px;
+  border-radius: 2px;
+  background: #ffcf7a;
+  margin-right: 110px;
+}
+.content .content__price .price__box .price__right .right__box .slider .slider__tool::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: #ffcf7a;
+  margin-left: 266px;
+  margin-top: -15px;
+  border-radius: 2px;
+}
+.content .content__price .price__box .price__right .right__box .slider .slider__tool::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-left: 294px;
+  margin-top: -15px;
+  border-radius: 2px;
+}
+.content .content__price .price__box .price__right .right__box .slider .slider__value {
+  min-width: 50px;
+  max-height: 55px;
+}
+.content .content__price .price__box .price__right .right__box .chooser {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.content .content__price .price__box .price__right .right__box .chooser__points {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  margin-left: 135px;
+  margin-top: 18px;
+}
+.content .content__price .price__box .price__right .right__box .add__funtion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 145px;
+}
+.content .content__price .price__box .price__right .right__box .add__funtion .add__check {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+  gap: 8px;
+}
+.content .content__price .price__box .price__right .right__box .add__funtion .add__check input[type=checkbox] {
+  display: none;
+}
+.content .content__price .price__box .price__right .right__box .add__funtion .add__check input[type=checkbox]:checked + label::after {
+  background-image: url(/file/checkbox.png);
+  background-size: 100%;
+  border: none;
+}
+.content .content__price .price__box .price__right .right__box .add__funtion .add__check label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 215px;
+}
+.content .content__price .price__box .price__right .right__box .add__funtion .add__check label::after {
+  content: "";
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 214%;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(29, 29, 28);
+  border: 1px solid #ffcf7a;
+  border-radius: 2px;
+  vertical-align: middle;
+  transition: 0.1s;
+}
+.content .content__price .price__box .price__right .cost__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 175px;
+  margin-top: 70px;
+}
+.content .content__price .price__box .price__right .cost__box .cost {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.content .content__price .price__box .price__right .cost__box .cost .price__cost {
+  height: 40px;
+  margin-top: -20px;
+}
+
+footer {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 593px;
+  background-color: black;
+}
+footer a.user,
+footer a.user :hover,
+footer a.user :active {
+  font-family: "Scania Sans CY Headline", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: 0.05em;
+  color: #6d6d6d;
+  cursor: pointer;
+}
+footer .up {
+  box-sizing: border-box;
+  width: 100%;
+  height: 490px;
+  padding: 0 123px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+footer .up h2.up__header {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 40px;
+  line-height: 138%;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: linear-gradient(226.43deg, #ffffff 49.37%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+footer .up .up__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: row;
+  gap: 220px;
+}
+footer .up .up__info .info__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  gap: 70px;
+}
+footer .up .up__info .info__box input[type=text] {
+  width: 279px;
+  height: 60px;
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  border: 1px solid #ceb787;
+  border-radius: 2px;
+}
+footer .up .up__info .info__box input[type=text]:placeholder-shown {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  line-height: 167%;
+  text-align: center;
+  color: white;
+}
+footer .up .up__info .info__box:last-child {
+  margin-left: 280px;
+}
+footer .up a.contact__text,
+footer .up a.contact__text:active {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: white;
+  font-size: 22px;
+  line-height: 164%;
+  cursor: pointer;
+}
+footer .up a.contact__text:hover {
+  color: #ffcf7a;
+  cursor: pointer;
+}
+footer .up p {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: white;
+}
+footer .up p.right__header {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 550%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .up p.WhatsApp {
+  font-size: 28px;
+  line-height: 164%;
+}
+footer .up p.contact__text {
+  font-size: 22px;
+  line-height: 164%;
+}
+footer .up p.tel {
+  font-weight: 250;
+  font-size: 36px;
+  line-height: 92%;
+}
+footer .bot {
+  box-sizing: border-box;
+  width: 100%;
+  height: 103px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  border-top: 1px solid #232323;
+  padding: 0 123px;
+}
+footer .bot .bot__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 47px;
+}
+footer .bot .bot__logo a.logo__main,
+footer .bot .bot__logo a.logo__main:active,
+footer .bot .bot__logo a.logo__main:hover {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 500%;
+  letter-spacing: 0.105em;
+  color: white;
+  cursor: pointer;
+  margin-right: 63px;
+  text-decoration: none;
+}
+footer .bot .bot__logo p.logo__add {
+  font-family: "Lab Grotesque", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: 0.05em;
+  color: #6d6d6d;
+}
+footer .bot .bot__logo .bot__user {
+  width: 220px;
+}
+
+.grafic {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+.grafic .blure1 {
+  position: absolute;
+  top: -100px;
+  left: 300px;
+  display: block;
+  width: 45px;
+  height: 30px;
+  box-shadow: 0 0 100px 50px rgb(255, 154, 82), 10px 10px 100px 140px rgba(245, 157, 93, 0.5), 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 81% 97% 70% 53%/71% 45% 42% 41%;
+  z-index: -1;
+  opacity: 0.5;
+}
+.grafic .blure2 {
+  position: absolute;
+  top: 300px;
+  left: -250px;
+  display: block;
+  width: 500px;
+  height: 80px;
+  box-shadow: 0 0 200px 20px rgb(255, 154, 82) inset, 0 0 100px 50px rgb(255, 154, 82), 10px 10px 100px 140px rgba(245, 157, 93, 0.5), 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 31% 32% 48% 51%/35% 27% 10% 11%;
+  z-index: -1;
+  opacity: 0.5;
+}
+.grafic .blure3 {
+  position: absolute;
+  top: -400px;
+  left: 100px;
+  display: block;
+  width: 100px;
+  height: 120px;
+  box-shadow: 0 0 200px 20px rgb(255, 154, 82) inset, 0 0 100px 50px rgb(255, 154, 82), 10px 10px 100px 140px rgba(245, 157, 93, 0.5), 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 31% 47% 65% 30%/35% 28% 54% 31%;
+  z-index: 1;
+  opacity: 0.2;
+}
+.grafic .blure4 {
+  position: absolute;
+  top: -400px;
+  left: 400px;
+  display: block;
+  width: 100px;
+  height: 120px;
+  box-shadow: 0 0 200px 20px #ffcf7a inset, 0 0 100px 50px #ffcf7a, 10px 10px 100px 140px rgb(255, 154, 82), 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 31% 47% 65% 30%/35% 28% 54% 31%;
+  z-index: 1;
+  opacity: 0.2;
+}
+.grafic .blure5 {
+  position: absolute;
+  top: 50px;
+  left: -120px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 200px 20px rgb(255, 154, 82) inset, 0 0 100px 50px rgb(255, 154, 82), 10px 10px 100px 140px rgba(245, 157, 93, 0.5), 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 53% 23% 17% 21%/48% 19% 61% 23%;
+  z-index: 1;
+  opacity: 0.2;
+}
+.grafic .blure1__black {
+  position: absolute;
+  top: 100px;
+  left: -700px;
+  display: block;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 2000px 2000px black inset, 0 0 150px 200px black, 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 43% 23% 33% 21%/48% 15% 57% 23%;
+  z-index: -1;
+  opacity: 0.2;
+}
+.grafic .blure2__black {
+  position: absolute;
+  top: 0px;
+  left: -900px;
+  display: block;
+  width: 1800px;
+  height: 400px;
+  box-shadow: 0 0 2000px 2000px black inset, 0 0 150px 200px black, 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 53% 47% 13% 10%/37% 37% 19% 23%;
+  z-index: -2;
+  opacity: 0.2;
+}
+.grafic .blure3__black {
+  position: absolute;
+  top: -150px;
+  left: -800px;
+  display: block;
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 0 200px 2000px black inset, 0 0 150px 200px black, 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 43% 23% 33% 21%/48% 15% 57% 23%;
+  z-index: 1;
+  opacity: 0.2;
+}
+.grafic .blure5__black {
+  position: absolute;
+  top: -50px;
+  left: -450px;
+  display: block;
+  width: 900px;
+  height: 20px;
+  box-shadow: 0 0 2000px 2000px black inset, 0 0 150px 200px black, 0 0 100px 150px rgb(29, 29, 28);
+  border-radius: 53% 47% 13% 10%/37% 37% 19% 23%;
+  z-index: -2;
+  opacity: 0.2;
+}
+
+/*# sourceMappingURL=page.css.map */
