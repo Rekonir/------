@@ -415,7 +415,7 @@ header a.menu__link:hover {
   margin-left: 35px;
 }
 .content .content__block2 .smart__art {
-  background-image: url('./file/kamin3.png');
+  background-image: url('../file/kamin3.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 1306px;
@@ -556,7 +556,7 @@ header a.menu__link:hover {
   z-index: 2;
 }
 .content .zapravka .zapravka__art .zapravka__pict .zapravka__pict3 {
-  background-image: url('./file/bak.png');
+  background-image: url('../file/bak.png');
   background-size: cover;
   background-repeat: no-repeat;
   width: 675px;
@@ -568,7 +568,7 @@ header a.menu__link:hover {
   top: 120px;
   left: 470px;
   z-index: 3;
-  background-image: url('./file/EllipseFon.png');
+  background-image: url('../file/EllipseFon.png');
   width: 151px;
   height: 151px;
   color: black;
@@ -729,7 +729,7 @@ header a.menu__link:hover {
   display: none;
 }
 .content .content__price .price__box .price__right .right__box .add__funtion .add__check input[type=checkbox]:checked + label::after {
-  background-image: url('./file/checkbox.png');
+  background-image: url('../file/checkbox.png');
   background-size: 100%;
   border: none;
 }
